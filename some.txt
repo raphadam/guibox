@@ -1,9 +1,0 @@
-Displaynumber=1
-Xephyr :$Displaynumber -extension MIT-SHM -extension XTEST &
-podman run --rm \
-            -e DISPLAY=:$Displaynumber \
-            -v /tmp/.X11-unix/X$Displaynumber:/tmp/.X11-unix/X$Displaynumber:rw \
-            --user $(id -u):$(id -g) \
-            --cap-drop=ALL \
-            --security-opt=no-new-privileges \
-            docker.io/x11docker/lxde pcmanfm
