@@ -1,6 +1,4 @@
-# guibox
-
-## 🚧 WORK IN PROGRESS
+# guibox 🚧 WORK IN PROGRESS
 
 ## Introduction
 
